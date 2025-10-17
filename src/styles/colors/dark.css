@@ -1,6 +1,9 @@
 :root {
   color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  --color-primary01: var(--color-yellow);
+  --color-primary02: var(--color-green);
+  --color-primary03: var(--color-gray);
+  --color-secondary01: var(--color-dark);
+  --color-secondary02: var(--color-black);
 }
