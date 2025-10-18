@@ -1,0 +1,30 @@
+/* Подключаем шрифты Cabin и Lato с нужными начертаниями */
+@import 'https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap';
+
+:root {
+  /* Семейства шрифтов */
+  --font-primary: 'Cabin', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
+
+  /* Размеры шрифта */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 32px;
+  --text-4xl: 40px;
+
+  /* Жирность шрифта */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Высота строки */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+  --leading-loose: 1.8;
+}

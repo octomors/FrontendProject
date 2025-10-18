@@ -7,6 +7,12 @@
   max-width: 100%;
 }
 
+.container--row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (--sm-viewport) {
   .container {
     max-width: 576px;
