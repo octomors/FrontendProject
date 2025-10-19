@@ -1,0 +1,46 @@
+.header {
+  background: #1b1b1b;
+  padding: 40px 0;
+}
+
+.header__logo {
+  display: flex;
+  gap: 11px;
+  font-family: var(--font-primary);
+  font-size: 30px;
+  font-weight: var(--font-semibold);
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__nav-link {
+  display: flex;
+  gap: 8px;
+}
+
+.header__nav-link--home {
+  color: var(--color-primary02);
+}
+
+.header__nav-text {
+  font-family: var(--font-secondary);
+  font-size: 17.73px;
+  font-weight: var(--font-regular);
+}
+
+.header__phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 41px 8px 10px;
+  background: white;
+  border-radius: 42px;
+  color: var(--color-secondary01);
+}
+
+.header__phone-number {
+  color: #353535;
+}
