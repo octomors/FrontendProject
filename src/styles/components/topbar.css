@@ -1,7 +1,7 @@
 /* stylelint-disable prettier/prettier */
 .topbar {
   background: var(--color-primary03);
-  padding: 8px 0;
+  padding: 18px 0;
   font-family: var(--font-secondary);
   font-size: var(--text-sm);
   font-weight: var(--font-regular);
@@ -11,12 +11,11 @@
 .topbar__socials {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .topbar__socials {
-  display: flex;
-  gap: 16px;
+  gap: 25px;
 }
 
 .topbar__social-link {
