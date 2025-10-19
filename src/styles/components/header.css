@@ -3,6 +3,11 @@
   padding: 40px 0;
 }
 
+.header .container--row {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
 .header__logo {
   display: flex;
   gap: 11px;
@@ -11,9 +16,16 @@
   font-weight: var(--font-semibold);
 }
 
+.header__nav {
+  order: 3;
+  width: 100%;
+}
+
 .header__nav-list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__nav-link {
@@ -36,11 +48,32 @@
   align-items: center;
   justify-content: center;
   padding: 8px 41px 8px 10px;
+  gap: 11px;
   background: white;
   border-radius: 42px;
   color: var(--color-secondary01);
+  white-space: nowrap;
 }
 
 .header__phone-number {
   color: #353535;
+  font-family: var(--font-secondary);
+  font-size: var(--text-lg);
+  font-weight: var(--text-semibold);
+}
+
+@media (--lg-viewport) {
+  .header .container--row {
+    flex-wrap: nowrap;
+  }
+
+  .header__nav {
+    order: initial;
+    width: auto;
+  }
+
+  .header__nav-list {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
 }
