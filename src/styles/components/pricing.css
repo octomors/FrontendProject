@@ -1,0 +1,287 @@
+.pricing {
+  background: var(--color-secondary01);
+  width: 100%;
+  min-height: 1016px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.pricing__content {
+  width: 1199px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  gap: 22px;
+}
+
+.pricing__title {
+  background: var(--color-primary02);
+  width: 106px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.pricing__title-text {
+  color: var(--color-secondary02);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  font-style: normal;
+  font-size: var(--text-base);
+  line-height: 1.48;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.pricing__header-text {
+  font-family: var(--font-primary);
+  font-weight: var(--font-bold);
+  font-style: normal;
+  font-size: 45px;
+  line-height: 1.16;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--color-primary03);
+  margin: 0;
+}
+
+.pricing__plans {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+  flex-wrap: wrap;
+}
+
+.pricing__plan-card {
+  width: 367px;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 21px 22px 40px;
+  background: var(--color-secondary02);
+  box-shadow: 0 4px 20px;
+  position: relative;
+}
+
+.pricing__plan-card-content {
+  width: 100%;
+  height: 234px;
+  border-radius: 20px;
+  background: var(--color-primary03);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.pricing__plan-card-price {
+  width: 100%;
+  height: 100%;
+  padding: 30px 28px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing__plan-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px; /* Отступ до линии */
+  order: 2; /* Позиция после линии */
+}
+
+.pricing__plan-card-plan {
+  color: var(--color-secondary02);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.16;
+  letter-spacing: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pricing__plan-card-description {
+  color: var(--color-secondary02);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.48;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.pricing__plan-card-rate {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 15px; /* Отступ сверху от линии */
+  order: 3; /* После линии */
+}
+
+.pricing__plan-card-for-month {
+  color: var(--color-secondary02);
+  font-family: var(--font-primary);
+  font-weight: var(--font-bold);
+  font-style: normal;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.pricing__plan-card-monthly {
+  background: #3e3e3e;
+  width: auto;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+.pricing__plan-card-monthly-text {
+  color: var(--color-secondary02);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.pricing__plan-card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.pricing__plan-card-points {
+  position: absolute;
+  top: -30px; /* чуть выше */
+  right: 20px; /* чуть левее */
+  width: 93px;
+  height: 93px;
+}
+
+.pricing__plan-card-line {
+  position: relative;
+  width: 85%;
+  height: 230px;
+  margin: 20px;
+}
+
+.pricing__plan-card-items {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.pricing__plan-card-items-features {
+  width: 100%;
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+}
+
+.pricing__plan-card-feature {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.pricing__plan-card-icon {
+  width: 20px;
+  height: 20px;
+  transform: rotate(0deg); /* Поворачиваем обратно направо */
+}
+
+.pricing__plan-card-feature-text {
+  color: #595566;
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.pricing__plan-card-button {
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 42px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.pricing__plan-card-button-text {
+  color: var(--color-primary03);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.pricing__plan-card-button-yellow {
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 42px;
+  background: var(--color-primary01);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.pricing__plan-card-monthly-green {
+  background: var(--color-primary02);
+  width: auto;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 15px;
+}
