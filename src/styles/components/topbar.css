@@ -5,6 +5,7 @@
   font-family: var(--font-secondary);
   font-size: var(--text-sm);
   font-weight: var(--font-regular);
+  line-height: 1.6;
 }
 
 .topbar__item,
