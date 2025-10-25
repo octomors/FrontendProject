@@ -15,16 +15,6 @@
   padding: 48px 60px 58px;
   max-width: 788px;
   text-align: left;
-  gap: 10px;
-}
-
-.banner__tag {
-  background: var(--color-primary01);
-  opacity: 1;
-  border-radius: 20px;
-  padding: 0 15px;
-  gap: 10px;
-  display: inline-flex;
 }
 
 .banner__text {
@@ -32,12 +22,4 @@
   font-family: var(--font-primary);
   font-size: 50px;
   font-weight: var(--font-bold);
-}
-
-.banner__tag-text {
-  color: var(--color-primary03);
-  font-family: var(--font-secondary);
-  font-size: var(--text-base);
-  font-weight: var(--font-regular);
-  letter-spacing: 0.145em;
 }
