@@ -13,13 +13,14 @@
   align-items: center;
 }
 
-@media (--sm-viewport) {
+/* Контейнеры для прогрессивного увеличения */
+@media not all and (--sm-viewport) {
   .container {
     max-width: 576px;
   }
 }
 
-@media (--md-viewport) {
+@media not all and (--md-viewport) {
   .container {
     max-width: 768px;
     padding-left: 16px;
@@ -27,13 +28,13 @@
   }
 }
 
-@media (--lg-viewport) {
+@media not all and (--lg-viewport) {
   .container {
     max-width: 1024px;
   }
 }
 
-@media (--xl-viewport) {
+@media not all and (--xl-viewport) {
   .container {
     max-width: 1312px;
   }
