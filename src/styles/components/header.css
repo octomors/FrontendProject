@@ -3,6 +3,7 @@
   padding: 40px 0;
 }
 
+/* Мобильная версия по умолчанию */
 .header .container--row {
   flex-wrap: wrap;
   row-gap: 20px;
@@ -65,7 +66,8 @@
   line-height: 1.6;
 }
 
-@media (--lg-viewport) {
+/* Десктопная версия для экранов ШИРЕ 1024px */
+@media not all and (--lg-viewport) {
   .header .container--row {
     flex-wrap: nowrap;
   }
