@@ -27,5 +27,8 @@
     "stylelint-config-standard": "^39.0.0",
     "stylelint-prettier": "^5.0.3",
     "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "fireworks-js": "^2.10.8"
   }
 }
