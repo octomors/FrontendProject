@@ -1,5 +1,5 @@
 .header {
-  background: #1b1b1b;
+  background: #1b1b1be8;
   padding: 40px 0;
 }
 
@@ -10,6 +10,7 @@
 }
 
 .header__logo {
+  color: var(--color-secondary02);
   display: flex;
   gap: 11px;
   font-family: var(--font-primary);
@@ -19,6 +20,7 @@
 }
 
 .header__nav {
+  color: var(--color-secondary02);
   order: 3;
   width: 100%;
 }

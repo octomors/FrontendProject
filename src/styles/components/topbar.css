@@ -6,6 +6,7 @@
   font-size: var(--text-sm);
   font-weight: var(--font-regular);
   line-height: 1.6;
+  color: var(--color-secondary02);
 }
 
 .topbar__item,
