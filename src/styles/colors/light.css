@@ -6,4 +6,6 @@
   --color-primary03: var(--color-dark);
   --color-secondary01: var(--color-gray);
   --color-secondary02: var(--color-white);
+  --color-background01: var(--color-gray);
+  --color-background02: var(--color-white);
 }
