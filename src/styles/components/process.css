@@ -1,5 +1,5 @@
 .process {
-  background: var(--color-secondary02);
+  background: var(--color-background02);
   padding: 8rem;
 }
 
@@ -62,7 +62,6 @@
   line-height: 1.48;
 }
 
-/* XL Viewport (width <= 1280px) */
 @media (--xl-viewport) {
   .process {
     padding: 6rem 4rem;
@@ -88,7 +87,6 @@
   }
 }
 
-/* LG Viewport (width <= 1024px) */
 @media (--lg-viewport) {
   .process {
     padding: 5rem 3rem;
@@ -126,7 +124,6 @@
   }
 }
 
-/* MD Viewport (width <= 768px) */
 @media (--md-viewport) {
   .process {
     padding: 4rem 2rem;
@@ -170,7 +167,6 @@
   }
 }
 
-/* SM Viewport (width <= 576px) */
 @media (--sm-viewport) {
   .process {
     padding: 3rem 1.5rem;

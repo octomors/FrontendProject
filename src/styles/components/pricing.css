@@ -1,5 +1,5 @@
 .pricing {
-  background: var(--color-secondary01);
+  background: var(--color-background01);
   width: 100%;
   min-height: 1016px;
   display: flex;
@@ -75,7 +75,7 @@
   flex-direction: column;
   border-radius: 20px;
   padding: 21px 22px 40px;
-  background: var(--color-secondary02);
+  background: var(--color-background02);
   position: relative;
 }
 
@@ -101,8 +101,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 30px; /* Отступ до линии */
-  order: 2; /* Позиция после линии */
+  margin-bottom: 30px;
+  order: 2;
 }
 
 .pricing__plan-card-plan {
@@ -134,8 +134,8 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  margin-top: 15px; /* Отступ сверху от линии */
-  order: 3; /* После линии */
+  margin-top: 15px;
+  order: 3;
 }
 
 .pricing__plan-card-for-month {
@@ -182,8 +182,8 @@
 
 .pricing__plan-card-points {
   position: absolute;
-  top: -30px; /* чуть выше */
-  right: 20px; /* чуть левее */
+  top: -30px;
+  right: 20px;
   width: 93px;
   height: 93px;
 }
@@ -217,7 +217,7 @@
 .pricing__plan-card-icon {
   width: 20px;
   height: 20px;
-  transform: rotate(0deg); /* Поворачиваем обратно направо */
+  transform: rotate(0deg);
 }
 
 .pricing__plan-card-feature-text {
