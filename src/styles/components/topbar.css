@@ -1,6 +1,5 @@
 /* stylelint-disable prettier/prettier */
 .topbar {
-  padding: 18px 0;
   font-family: var(--font-secondary);
   font-size: var(--text-sm);
   font-weight: var(--font-regular);

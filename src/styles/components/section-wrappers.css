@@ -5,10 +5,12 @@
 }
 
 .section-wrapper--topbar {
+  padding: 18px 0;
   background: var(--color-primary03);
 }
 
 .section-wrapper--header {
+  padding: 40px 0;
   background: #303030;
 }
 
