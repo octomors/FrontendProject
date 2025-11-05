@@ -13,7 +13,11 @@
   align-items: center;
 }
 
-/* Контейнеры для прогрессивного увеличения */
+.form-container {
+  background: var(--color-background02);
+  width: 100%;
+}
+
 @media not all and (--sm-viewport) {
   .container {
     max-width: 576px;

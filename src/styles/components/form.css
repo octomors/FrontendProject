@@ -1,0 +1,149 @@
+/* Left Section */
+.contact-info {
+  max-width: 1200px;
+  padding-right: 80px;
+}
+
+.contact-info h1 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-bold);
+  font-size: 45px;
+  color: var(--color-primary03);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.description {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  line-height: 1.48;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.info-content {
+  padding-top: 4px;
+}
+
+.info-label {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  line-height: 1.48;
+  font-size: 16px;
+  color: #595566;
+  margin-bottom: 4px;
+}
+
+.info-value {
+  font-family: var(--font-primary);
+  font-weight: var(--font-semibold);
+  line-height: 1.15;
+  font-size: 20px;
+  color: var(--color-primary03);
+}
+
+/* Right Section - Form */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.form-group {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  line-height: 1.48;
+  font-size: 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  margin-bottom: 28px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary03);
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-regular);
+  line-height: 1.48;
+  font-size: 16px;
+  padding: 22px 33px;
+  border: 1px solid #c1c1c1;
+  border-radius: 54px;
+}
+
+.full-width textarea {
+  border-radius: 22px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-semibold);
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: var(--color-primary03);
+  color: var(--color-secondary02);
+  gap: 10px;
+  border: none;
+  padding: 16px 27px;
+  border-radius: 42px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (width <= 968px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-info {
+    padding-right: 0;
+  }
+
+  .contact-info h1 {
+    font-size: 36px;
+  }
+}
+
+@media (width <= 640px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .contact-info h1 {
+    font-size: 32px;
+  }
+}

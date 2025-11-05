@@ -33,6 +33,16 @@
   background: var(--color-background01);
 }
 
+.contact-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 91px;
+  align-items: start;
+}
+
 /* Component spacing wrappers */
 .pricing__header-wrapper {
   margin-bottom: 80px;
