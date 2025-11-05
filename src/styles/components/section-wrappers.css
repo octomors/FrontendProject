@@ -1,0 +1,71 @@
+/* Section wrappers for layout spacing */
+
+.section-wrapper {
+  width: 100%;
+}
+
+.section-wrapper--banner {
+  margin: 0 0 170px;
+}
+
+.section-wrapper--services {
+  padding: 0 0 170px;
+  background: var(--color-background01);
+}
+
+.section-wrapper--process {
+  padding: 8rem;
+  background: var(--color-background02);
+}
+
+.section-wrapper--pricing {
+  padding: 100px 0;
+  background: var(--color-background01);
+}
+
+/* Component spacing wrappers */
+.pricing__header-wrapper {
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+/* Responsive spacing adjustments */
+@media (--xl-viewport) {
+  .section-wrapper--services {
+    padding: 140px 0;
+  }
+
+  .section-wrapper--process {
+    padding: 6rem 4rem;
+  }
+}
+
+@media (--lg-viewport) {
+  .section-wrapper--services {
+    padding: 120px 0;
+  }
+
+  .section-wrapper--process {
+    padding: 5rem 3rem;
+  }
+}
+
+@media (--md-viewport) {
+  .section-wrapper--services {
+    padding: 100px 0;
+  }
+
+  .section-wrapper--process {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (--sm-viewport) {
+  .section-wrapper--services {
+    padding: 80px 0;
+  }
+
+  .section-wrapper--process {
+    padding: 3rem 1.5rem;
+  }
+}
