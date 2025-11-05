@@ -1,6 +1,5 @@
 .process {
-  background: var(--color-background02);
-  padding: 8rem;
+  width: 100%;
 }
 
 .process__container {
@@ -63,10 +62,6 @@
 }
 
 @media (--xl-viewport) {
-  .process {
-    padding: 6rem 4rem;
-  }
-
   .process__container {
     max-width: 70rem;
     gap: 4.5rem;
@@ -88,10 +83,6 @@
 }
 
 @media (--lg-viewport) {
-  .process {
-    padding: 5rem 3rem;
-  }
-
   .process__container {
     max-width: 60rem;
     gap: 4rem;
@@ -125,10 +116,6 @@
 }
 
 @media (--md-viewport) {
-  .process {
-    padding: 4rem 2rem;
-  }
-
   .process__container {
     flex-direction: column;
     align-items: flex-start;
@@ -168,10 +155,6 @@
 }
 
 @media (--sm-viewport) {
-  .process {
-    padding: 3rem 1.5rem;
-  }
-
   .process__container {
     gap: 2.5rem;
   }
