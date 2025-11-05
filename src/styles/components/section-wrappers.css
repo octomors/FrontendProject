@@ -4,6 +4,14 @@
   width: 100%;
 }
 
+.section-wrapper--topbar {
+  background: var(--color-primary03);
+}
+
+.section-wrapper--header {
+  background: #303030;
+}
+
 .section-wrapper--banner {
   margin: 0 0 170px;
 }
